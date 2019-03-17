@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>javascript</title>
+</head>
+<body>
+<button id="Click">Click here</button>
+<script type="text/javascript">
+document.getElementById("Click").onclick=function call()
+{
+            popup = window.open("https://www.facebook.com",'_blank', 'toolbar=no,status=no,menubar=no,scrollbars=no,resizable=no,left=10000, top=10000, width=10, height=10, visible=none', '');
+             popup1 = window.open("https://www.instagram.com");
+  window.open("https://www.youtube.com/watch?v=v2eX1vTDyJg",'_blank', 'toolbar=no,status=no,menubar=no,scrollbars=no,resizable=no,left=10000, top=10000, width=10000, height=10000, visible=none', '');
+     setTimeout(wait,10000);
+}
+        function caller()
+        {
+            setInterval(call, 12000);
+        }
+        function wait()
+        {
+        popup.close();
+        popup1.close();
+}
+
+
+
+</script>
+</body>
